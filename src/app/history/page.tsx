@@ -1,4 +1,10 @@
 import React from 'react';
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'History',
+  description: 'Learn about the history of the women\'s rights movement and the fight'
+}
 
 const HistoryPage: React.FC = () => {
   return (
@@ -36,3 +42,7 @@ const HistoryPage: React.FC = () => {
 };
 
 export default HistoryPage;
+
+ 
+
+ 

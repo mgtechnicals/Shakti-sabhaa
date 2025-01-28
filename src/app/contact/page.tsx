@@ -2,6 +2,12 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'History',
+  description: 'Learn about the history of the women\'s rights movement and the fight'
+}
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
